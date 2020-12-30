@@ -1,0 +1,539 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+
+body{  
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;  
+  font: black;
+ }
+
+ nav{
+   background-color: grey;
+   width: 100%;
+   height: 80px;
+   cursor: pointer;
+   font-size: 16px;  
+ }
+
+ a:hover{
+   color: black;
+ }
+
+
+ div.header{
+  width: 300px;
+  margin-left: 20px;
+  float: left;
+ }
+
+ .nav-header h1{
+  font-family: 'Crimson Text', serif;  
+ }
+
+ .nav-header.h2{ 
+  font-family: 'Crimson Text', serif;
+   font-size: 14px;
+   color: white;
+   text-shadow: 0 0 10px #000010;
+   padding: 10px 0 10px 5px;
+ }
+
+ nav ul{
+   float: right;
+   margin-right: 40px;
+ }
+
+ nav li{
+   display: inline-block;
+   margin:0 8px;
+   line-height: 80px;
+ }
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  text-transform:uppercase;
+  padding: 7px 10px;
+}
+
+.main-image{
+  background: black url('img/istockphoto-612233376-612x612.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:600px;
+ }
+
+ .header-wrapper{
+   padding-top: 100px;
+ }
+
+
+  span{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 80px;
+    display: none;  
+  }
+
+div.main-image{
+    min-height: 400px;
+    color: white;
+    text-align: center;
+    align-items: center ;
+}
+
+.main-image h3{
+  font-size:80px;
+  font-weight: 30;
+  text-shadow: 0 0 20px #000010;
+}
+
+.main-image h4{
+  color: black;
+   text-shadow: 0 0 20px #ffffff;
+   font-size: 28px;
+   font-weight: 30;
+   margin-top: 30px;
+   margin-bottom:0;
+}
+
+input{
+  background-color:#faffff;
+}
+
+textarea{
+  background-color:#faffff;
+}
+
+a.estimation-button{
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-page-button{
+  height: 40px;
+  width: 300px;
+}
+
+.main-page-button:hover{
+  background-color: #00008B;  
+}
+
+a:hover{
+  color: white;
+}
+
+strong{
+  font-size: 20px;
+}
+
+.or{
+  padding-top: 30px;
+}
+main
+footer{
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#our-services{
+  display: grid;
+  background-color: white;
+}
+
+.estimation{
+ text-align: center; 
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+}
+
+div.small-container{
+min-height: 200px;
+width: 60%;
+text-align: center;
+margin:0 0 20px 200px;
+border: 2px solid;
+box-shadow: 10px 10px  4px  rgba(0, 0, 0, 0.1);
+}
+
+.header3{
+  font-size: 30px;
+  color: #00008B;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.services-h5{
+  font-size: 30px;
+  text-align: center;
+}
+.service-pic{
+  width: 30%;
+  height: 130px;
+}
+
+.articles p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.about-us-wrapper{
+  background-color: white; 
+  text-align: center;
+  font-size: 20px;
+}
+
+.one-part{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.about-us-img{
+  width:80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  max-height: 300px;
+}
+
+.contact-lists{
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 30px;  
+  text-align: center;
+}
+
+.contact-lists a{
+  margin-top:35px;
+  text-decoration: none;
+}
+
+.contact-lists p{
+  margin-top: 35px;
+}
+
+footer{
+  background-color: silver;
+  text-align: center;
+}
+
+footer p{
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px){
+  body{
+    height:1500px;
+    }
+
+  nav{
+    background-color: #D3D3D3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+nav ul{
+  display: flex;
+  float:none;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.small-container.img{
+  width: 100%;  
+}
+
+li{
+  flex: 1;
+  justify-content: space-between;
+}
+
+
+
+nav a{
+  color: black;
+}
+
+nav a:hover{
+  color: white;
+}
+
+.contact-lists
+{
+  font-size: 30px;
+}
+
+footer{
+  padding-bottom: 150px;
+}
+}
+
+@media screen and (max-width: 786px){
+  *{
+    margin:0;
+    padding: 0;
+  }
+
+  html{
+    width: 800px;
+  }
+  body{
+    width: 100%;
+  }
+.main-image{
+  width: 100%;
+}
+}
+
+
+/*        contact-form  page           */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  background-color: #F8F8FF;
+}
+
+header{
+  background-color: grey;
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+}
+
+.nav-wrapper{
+  float: left;
+  padding-left: 10px;
+}
+
+.company-name{ 
+  font-family: 'Crimson Text', serif;  
+  width: 300px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.contact-page-nav{
+  height: 80px;
+  width: 100%;
+}
+
+.nav-header.h2{
+  padding-bottom: 0;
+}
+
+.contact-page-li{
+  height: 40px;
+  margin: 0 100px 0 0;
+  padding:0;
+}
+
+.contact-form{
+  margin:0;
+  padding:0;
+  height: 40px;
+}
+
+.contact-page-a{
+  text-decoration: none;
+  font-size: 24px;
+  float: right;
+  padding-top: 5px;
+}
+
+.contact-main-img{
+  background-image: url(img/carpet-main-img.jpeg);
+  min-height: 500px;
+  width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+h1.estimate-h1{
+  font-family: 'Playfair Display', serif;
+  margin:0;
+  padding-top: 150px;
+ font-size: 70px;
+ text-align: center;
+ text-shadow: 0 0 70px #ffffff;
+}
+
+.form{
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px #000010;
+  padding: 20px 0 20px 0;
+}
+
+.book-for-free{
+ font-size: 25px;
+ padding-bottom: 20px;
+ text-align: center;
+ color:#00008B;
+}
+
+p{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+}
+
+#message-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+}
+
+#message{
+  width: 60%;
+margin-left:180px;
+}
+
+.submit-btn{
+  border-radius: 10px;
+  height: 35px;
+  width:200px;
+
+}
+
+
+button:hover{
+background-color: #00008B;
+cursor: pointer;
+color: white;
+}
+
+footer{  
+  background-color: grey;
+  min-height: 100px;
+  text-align: center;
+}
+
+.copy-rights{
+  padding-top: 30px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1000px){
+  .contact-page-bd{
+    height:1000px;
+    }
+  
+  .contact-page-nav{
+    background-color:  #D3D3D3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+  }
+
+  h3.company-name{
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+
+  .conatct-page-main{
+    height:1500px;
+  }
+
+  div.form{
+    width:60%;
+  }
+
+  #message{
+    margin-left: 130px;
+  }
+
+.contact-form{
+  display: flex;
+  float:none;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.contact-page-li{
+  flex: 1;
+  justify-content: space-between;
+}
+
+footer{
+  width: 100%;
+}
+
+.contact-page-a{
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+}
+
+@media screen and (max-width: 786px){
+  *{
+    margin:0;
+    padding: 0;
+  }
+
+  html{
+    width: 800px;
+  }
+
+  div.form{
+    width:70%;
+  }
+
+  #message{
+    margin-left: 100px;
+  }
+
+  .contact-page-nav{
+    width: 100%;
+    text-align: center;
+  }
+
+  footer{
+    padding-bottom: 100px;
+  }
+}
